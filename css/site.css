@@ -293,6 +293,9 @@ textarea {
 
 @media only screen and (max-width: 699px) {
 
+    h1,h2,h3,h4,h5,h6{
+        font-size:175%;
+    }
     .postfont{
         font-size:75%;
     }
