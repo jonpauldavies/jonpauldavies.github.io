@@ -293,6 +293,10 @@ textarea {
 
 @media only screen and (max-width: 699px) {
 
+    .postfont{
+        font-size:75%;
+    }
+
     #mobileview { 
         visibility: visible;
     }
@@ -350,6 +354,7 @@ textarea {
 }
 
 @media only screen and (min-width: 700px) {
+
     #bgimage { 
         background: url('/img/banner_1100.jpg') 39% top no-repeat fixed;
         -webkit-background-size: cover;
@@ -378,6 +383,9 @@ textarea {
 
 
 @media only screen and (min-width: 1100px) {
+
+
+
     #bgimage { 
         background: url('/img/banner3.jpg') no-repeat top right fixed;
         -webkit-background-size: cover;
