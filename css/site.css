@@ -1,0 +1,409 @@
+body {
+    font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
+    color: #444;
+    background-color: #fefefe;
+}
+
+.barwidth{
+    width:100%;
+    padding:0px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    font-weight: 700;
+    color: #222;
+}
+
+.logo {
+    margin-bottom:50px;
+}
+
+.postsidebar {
+    width:22%;
+    float:left;
+    padding-right:8%; 
+    font-size: 13px;
+    font-size: 0.722222em; /* 18 = 18 × 1 */
+    text-align: right;
+    color: #888;
+}
+
+.indexbar {
+    font-size: 13px;
+    font-size: 0.722222em; /* 18 = 18 × 1 */
+    color: #888;
+    background-color: #fefefe;
+    padding: 18px;
+}
+
+.postsidebar .author, .indexbar .author {
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    font-weight: 700;
+    color: #222;
+    font-size: 15px;
+    font-size: 0.8333333rem; /* 18 = 18 × 1 */
+    margin-top: 11px;
+}
+
+.postsidebar .profilelinks, .indexbar .profilelinks {
+    margin-top:11px;
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    font-weight: 700;
+    color: #222;
+}
+
+.postsidebar .profilelink {
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    font-weight: 700;
+    color: #222;
+}
+
+a{
+    color:#74ad87;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#50765d;
+}
+
+.post {
+    width:70%;
+    float: left;
+    margin-top:132px;
+}
+
+.postfooter{
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    font-weight: 700;
+    color: #222;
+    font-size: 15px;
+    font-size: 0.8333333rem; /* 18 = 18 × 1 */
+}
+
+.meta {
+    color:#b3b3b1;
+}
+
+.footer-container .wrapper{
+    border-top:dashed 1px #ccc;
+    color: #b3b3b1;
+    font-size: 13px;
+    font-size: 0.722222em; /* 18 = 18 × 1 */
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    text-align: right;
+}
+
+.postexcerpts{
+    margin-top:132px;
+    width:70%;
+    float: left;
+}
+
+.postexcerpt{
+    
+    display:block;
+}
+
+.postexcerptmeta,.pagination{
+    font-weight: 700;
+    color: #b3b3b1;
+    font-size: 15px;
+    font-size: 0.8333333rem; /* 18 = 18 × 1 */
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    margin-bottom:60px;
+}
+
+.mobileheader{
+    text-align: center;
+    margin-top:15px;
+}
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+    .profile {
+        display:block;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+
+    #mobileview { 
+        visibility: visible;
+    }
+
+    .logo2{
+        display:none;
+        visibility:hidden;
+    }
+
+    .logo3{
+        margin:15px;
+    }
+
+    .barwidth{
+        padding:0px;
+    }
+
+    .main{
+        margin-top:0px;
+        padding-top:10px;
+    }
+
+    .profilelinks{
+        float:left;
+        margin-right:10%;
+    }
+
+    .postsidebar{
+        visibility: hidden;
+        display:none;
+    }
+
+    .postexcerpts, .post {
+    width: 100%;
+    margin-top:0px;
+    }
+
+    .logo{
+        margin-bottom:0px;
+    }
+
+    .mobileheader h3{
+   
+        margin-top:17px;
+       
+    }
+
+    .mobileheader .profilelinks{
+        text-align:center;
+        width:100%;
+        font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+        font-weight: 700;
+        color: #222;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #bgimage { 
+        background: url('/img/banner_1100.jpg') 39% top no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #mobileview { 
+        visibility: hidden;
+        display:none;
+    }
+    .indexright{
+        float:right;
+        margin-right: 10%;
+    }
+
+    .barwidth{
+        width:200px;
+    }
+
+    .mobileheader{
+        display:none;
+        visibility:hidden;
+    }
+}
+
+
+@media only screen and (min-width: 1100px) {
+    #bgimage { 
+        background: url('/img/banner3.jpg') no-repeat top right fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position:center;
+    }
+
+    .indexright{
+        float:right;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    #bgimage { 
+        background: url('/img/banner3.jpg') no-repeat top left fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .indexright{
+        float:right;
+        margin-right: 10%;
+    }
+}

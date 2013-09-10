@@ -1,0 +1,41 @@
+---
+layout: column
+title: "Jon Paul Davies | Blog"
+---
+<div class="postexcerpts"> 
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+  
+    <div class="postexcerpt">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>  
+      {{ post.excerpt }}
+      <div class="postexcerptmeta">Published {{ post.date | date_to_string }}. <a href="{{ post.url }}">Read More...</a></div>
+    </div>
+  {% endfor %}
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="/blog/">Previous Page</a>
+      {% else %}
+        <a href="/blog/page{{ paginator.next_page }}"> Previous Page</a>
+      {% endif %}
+    {% endif %}
+
+    Page {{ paginator.page }} of {{ paginator.total_pages }}
+
+    {% if paginator.next_page %}
+      <a href="/blog/page{{ paginator.next_page }}">Next Page </a>
+    {% endif %}
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+

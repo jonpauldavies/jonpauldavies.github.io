@@ -1,0 +1,47 @@
+.sidr {
+    display: none;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 260px;
+    overflow-x: none;
+    overflow-y: auto;
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
+    background: #222;
+    color: #fefefe;
+}
+.sidr .sidr-inner {
+    padding: 0 0 15px;
+}
+.sidr .sidr-inner>p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.sidr.right {
+    left: auto;
+    right: -260px;
+}
+.sidr.left {
+    left: -260px;
+    right: auto;
+}
+.sidr ul {
+    display: block;
+    margin: 15px;
+    padding: 0;
+}
+.sidr ul li {
+    display: block;
+    margin: 0;
+}
+
+.sidr ul li a, .sidr ul li span {
+    padding: 0 15px;
+    display: block;
+    text-decoration: none;
+    color: #fefefe;
+}
+
+
