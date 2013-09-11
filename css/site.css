@@ -74,6 +74,10 @@ a:hover{
     margin-top:132px;
 }
 
+.post img {
+    max-width: 100%;
+}
+
 .postfooter{
     font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans","Geneva","Verdana","sans-serif";
     font-weight: 700;
