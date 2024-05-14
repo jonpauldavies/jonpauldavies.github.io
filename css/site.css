@@ -22,7 +22,7 @@ h1, h2, h3, h4 {
 .postsidebar {
     width:22%;
     float:left;
-    padding-right:8%; 
+    padding-right:8%;
     font-size: 13px;
     font-size: 0.722222em; /* 18 = 18 × 1 */
     text-align: right;
@@ -106,7 +106,7 @@ a:hover{
 }
 
 .postexcerpt{
-    
+
     display:block;
 }
 
@@ -308,7 +308,7 @@ textarea {
         font-size: 0.8333333rem;
     }
 
-    #mobileview { 
+    #mobileview {
         visibility: visible;
         display:block;
     }
@@ -351,9 +351,9 @@ textarea {
     }
 
     .mobileheader h3{
-   
+
         margin-top:17px;
-       
+
     }
 
     .mobileheader .profilelinks{
@@ -367,14 +367,14 @@ textarea {
 
 @media only screen and (min-width: 700px) {
 
-    #bgimage { 
-        background: url('/img/banner_1100.jpg') 39% top no-repeat fixed;
+    #bgimage {
+        background: url('/img/banner_1100b.jpg') 39% top no-repeat fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
-    #mobileview { 
+    #mobileview {
         visibility: hidden;
         display:none;
     }
@@ -398,8 +398,8 @@ textarea {
 
 
 
-    #bgimage { 
-        background: url('/img/banner3.jpg') no-repeat top right fixed;
+    #bgimage {
+        background: url('/img/banner3b.jpg') no-repeat top right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -414,8 +414,8 @@ textarea {
 }
 
 @media only screen and (min-width: 1340px) {
-    #bgimage { 
-        background: url('/img/banner3.jpg') no-repeat top left fixed;
+    #bgimage {
+        background: url('/img/banner3b.jpg') no-repeat top left fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
